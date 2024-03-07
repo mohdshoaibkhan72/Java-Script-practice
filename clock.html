@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <h1>this is real time Clock</h1>
+  </head>
+  <body>
+    <h1 id="demo"></h1>
+  </body>
+  <script>
+    setInterval(myfunctiond, 1000);
+
+    function myfunctiond() {
+      const d = new Date();
+      document.getElementById("demo").innerHTML =
+        d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+    }
+  </script>
+</html>
