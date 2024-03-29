@@ -20,7 +20,8 @@ setTimeout(() => {
 
 setTimeout(() => {
   console.log("fetching the data for hacking ");
-  try { //its will  not work for the asyncroonus java scripts.....
+  try {
+    //its will  not work for the asyncroonus java scripts.....
     setTimeout(() => {
       console.log(shoiab);
     });
